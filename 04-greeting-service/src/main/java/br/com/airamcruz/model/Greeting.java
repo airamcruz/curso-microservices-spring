@@ -1,4 +1,4 @@
-package br.com.airamcruz;
+package br.com.airamcruz.model;
 
 public class Greeting {
 	private final long id;
