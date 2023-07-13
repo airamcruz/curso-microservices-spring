@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.airamcruz</groupId>
-	<artifactId>05-config-server</artifactId>
+	<artifactId>05-config-server-local</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>05-config-server</name>
 	<description>Demo project for Spring Boot</description>
