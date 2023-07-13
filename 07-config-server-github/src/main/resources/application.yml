@@ -1,0 +1,14 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/airamcruz/curso-microservices-spring.git
+          default-label: main
+          search-paths:
+          - '06-config-server/greeting-service*'
+          - '06-config-server/greeting-service/config*'
